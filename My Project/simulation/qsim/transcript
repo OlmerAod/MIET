@@ -1,0 +1,42 @@
+# do InterfacingADC.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 20:11:37 on Nov 10,2015
+# vlog -work work InterfacingADC.vo 
+# -- Compiling module ad79x8_interface
+# 
+# Top level modules:
+# 	ad79x8_interface
+# End time: 20:11:37 on Nov 10,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 20:11:37 on Nov 10,2015
+# vlog -work work TestWaveform.vwf.vt 
+# -- Compiling module ad79x8_interface_vlg_sample_tst
+# -- Compiling module ad79x8_interface_vlg_check_tst
+# -- Compiling module ad79x8_interface_vlg_vec_tst
+# 
+# Top level modules:
+# 	ad79x8_interface_vlg_vec_tst
+# End time: 20:11:38 on Nov 10,2015, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -c -do "InterfacingADC.do" 
+# Start time: 20:11:38 on Nov 10,2015
+# Loading work.ad79x8_interface_vlg_vec_tst
+# Loading work.ad79x8_interface
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.dffeas
+# Loading work.ad79x8_interface_vlg_sample_tst
+# Loading work.ad79x8_interface_vlg_check_tst
+# Loading altera_ver.PRIM_GDFF_LOW
+# Simulation passed !
+# ** Note: $finish    : TestWaveform.vwf.vt(478)
+#    Time: 100 us  Iteration: 0  Instance: /ad79x8_interface_vlg_vec_tst/tb_out
+# End time: 20:11:38 on Nov 10,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

@@ -1,0 +1,170 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Sergey/Documents/Quartus II 15.0/My Project/simulation/qsim
+vad7928_interface
+Z1 !s110 1446410596
+!i10b 1
+!s100 9[fIozZlNbSdDGR[Z45A>2
+IMY0cD<OG>`:2_f9WCLLaE2
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+w1446410595
+Z3 8InterfacingADC.vo
+Z4 FInterfacingADC.vo
+Z5 L0 32
+Z6 OV;L;10.3d;59
+r1
+!s85 0
+31
+!s108 1446410596.413000
+Z7 !s107 InterfacingADC.vo|
+Z8 !s90 -work|work|InterfacingADC.vo|
+!i113 1
+Z9 o-work work
+vad7928_interface_vlg_check_tst
+R1
+!i10b 1
+!s100 ^1DQI9jf:CM2QIcI9B34m2
+IQAJA<4Mo_8goUSbDm0<bD1
+R2
+R0
+Z10 w1446410593
+Z11 8TestWaveform.vwf.vt
+Z12 FTestWaveform.vwf.vt
+L0 62
+R6
+r1
+!s85 0
+31
+Z13 !s108 1446410596.754000
+Z14 !s107 TestWaveform.vwf.vt|
+Z15 !s90 -work|work|TestWaveform.vwf.vt|
+!i113 1
+R9
+vad7928_interface_vlg_sample_tst
+R1
+!i10b 1
+!s100 cRQR=TLfba>BiQ2fRjZI_0
+I2T[S9U7ghE;lR3jlSRBzD2
+R2
+R0
+R10
+R11
+R12
+Z16 L0 30
+R6
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 1
+R9
+vad7928_interface_vlg_vec_tst
+R1
+!i10b 1
+!s100 D_OXh4?ZnWA1J>oQ`V0CY2
+IKn^KD45U_C7>nSIaAZ2iz3
+R2
+R0
+R10
+R11
+R12
+L0 2003
+R6
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 1
+R9
+vad79x8_interface
+!s110 1447175497
+!i10b 1
+!s100 Z]S4XYL5?oRPjzdgV6eZz0
+IaUIZc0L>8a6:K_QjUk4`L0
+R2
+R0
+w1447175496
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+!s108 1447175497.637000
+R7
+R8
+!i113 1
+R9
+vad79x8_interface_vlg_check_tst
+Z17 !s110 1447175498
+!i10b 1
+!s100 ]cKM[GY;i>6eT@5An=W8F0
+IeKjM0j;e86Pi1m@DWJj>f3
+R2
+R0
+Z18 w1447175491
+R11
+R12
+L0 64
+R6
+r1
+!s85 0
+31
+Z19 !s108 1447175498.005000
+R14
+R15
+!i113 1
+R9
+vad79x8_interface_vlg_sample_tst
+R17
+!i10b 1
+!s100 l4RBTj0TonNROMfA_NTKL0
+IHARS`E6LOn=V^G3Z:P^5F0
+R2
+R0
+R18
+R11
+R12
+R16
+R6
+r1
+!s85 0
+31
+R19
+R14
+R15
+!i113 1
+R9
+vad79x8_interface_vlg_vec_tst
+R17
+!i10b 1
+!s100 N`3FO[z[j9fC8abL>TX4^2
+IY=BF;nmXHJgYDZ`j?DHN31
+R2
+R0
+R18
+R11
+R12
+L0 482
+R6
+r1
+!s85 0
+31
+R19
+R14
+R15
+!i113 1
+R9

@@ -1,0 +1,60 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Sergey/Documents/Quartus II 15.0/My Project/simulation/modelsim
+T_opt
+!s110 1447269677
+VT3Bbzan741g3nMXd2LJcf0
+04 24 4 work ad79x8_interface_vlg_tst fast 0
+=1-208984414803-5643952b-1b4-1950
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work +acc
+n@_opt
+OL;O;10.4;61
+vad79x8_interface
+Z1 !s110 1447269673
+!i10b 1
+!s100 OkUPmiL_eQYLCa?`L2Wd42
+IJ=[W2VIEQB@f>l<`21_D90
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1447198973
+8C:/Users/Sergey/Documents/Quartus II 15.0/My Project/ad79x8_interface.v
+FC:/Users/Sergey/Documents/Quartus II 15.0/My Project/ad79x8_interface.v
+L0 1
+Z3 OL;L;10.4;61
+r1
+!s85 0
+31
+!s108 1447269673.576000
+!s107 C:/Users/Sergey/Documents/Quartus II 15.0/My Project/ad79x8_interface.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Sergey/Documents/Quartus II 15.0/My Project|C:/Users/Sergey/Documents/Quartus II 15.0/My Project/ad79x8_interface.v|
+!i113 0
+Z4 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+!s92 -vlog01compat -work work {+incdir+C:/Users/Sergey/Documents/Quartus II 15.0/My Project} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vad79x8_interface_vlg_tst
+R1
+!i10b 1
+!s100 Wi7la_fEeF[FfhnUBYjX03
+ID`Y^j8h^]f`hfG6RjQdW_1
+R2
+R0
+w1447200052
+8C:/Users/Sergey/Documents/Quartus II 15.0/My Project/simulation/modelsim/ad79x8_interface.vt
+FC:/Users/Sergey/Documents/Quartus II 15.0/My Project/simulation/modelsim/ad79x8_interface.vt
+L0 19
+R3
+r1
+!s85 0
+31
+!s108 1447269673.696000
+!s107 C:/Users/Sergey/Documents/Quartus II 15.0/My Project/simulation/modelsim/ad79x8_interface.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Sergey/Documents/Quartus II 15.0/My Project/simulation/modelsim|C:/Users/Sergey/Documents/Quartus II 15.0/My Project/simulation/modelsim/ad79x8_interface.vt|
+!i113 0
+R4
+!s92 -vlog01compat -work work {+incdir+C:/Users/Sergey/Documents/Quartus II 15.0/My Project/simulation/modelsim} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact

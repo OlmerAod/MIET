@@ -1,0 +1,102 @@
+// *****************************************************************************
+// This file contains a Verilog test bench template that is freely editable to  
+// suit user's needs .Comments are provided in each section to help the user    
+// fill out necessary details.                                                  
+// *****************************************************************************
+// Generated on "11/10/2015 20:15:18"
+                                                                                
+// Verilog Test Bench template for design : ad79x8_interface
+// 
+// Simulation tool : ModelSim (Verilog)
+// 
+// Собственно, Testbench был создан путем редактирования шаблона, 
+// создаваемого самим Quartus II 15.0 Web Edition после его интеграции 
+// с ModelSim. Моделирование проводилось в ModelSim SE-64 10.4. 
+// Артемьев Сергей
+//
+
+`timescale 1 ns/ 1 ns
+module ad79x8_interface_vlg_tst();
+// constants                                           
+// general purpose registers
+reg eachvec;
+// test vector input registers
+reg [15:0] data_in;
+reg dout;
+reg sclk;
+reg start_transfer;
+// wires                                               
+wire cs;
+wire [15:0]  data_out;
+wire din;
+
+// assign statements (if any)                          
+ad79x8_interface i1 (
+// port map - connection between master ports and signals/registers   
+	.cs(cs),
+	.data_in(data_in),
+	.data_out(data_out),
+	.din(din),
+	.dout(dout),
+	.sclk(sclk),
+	.start_transfer(start_transfer)
+);
+initial                                                
+begin: 	CLOCK_GENERATOR
+	sclk = 0;
+	forever
+ 		begin
+ 		#5 sclk = ~ sclk;
+ 		end                                            
+$display("Running testbench");                       
+end   
+                                                 
+always                                                 
+// optional sensitivity list                           
+// @(event1 or event2 or .... eventn)                  
+begin                                                  
+// code executes for every event on sensitivity list   
+// insert code here --> begin                          
+                                                       
+@eachvec;                                              
+// --> end                                             
+end                                                    
+
+event start_transfer_trigger;
+event start_transfer_trigger_done;
+
+initial 
+begin
+	forever
+		begin
+		@(start_transfer_trigger);
+		start_transfer = 1;
+		data_in = 16'b1001_1111_0000_0000;
+		@(negedge sclk);
+		dout = 0;
+		@(posedge sclk);
+		start_transfer = 0;
+		@(negedge sclk);
+		data_in = 16'b0000_0000_0000_0000;
+		-> start_transfer_trigger_done;
+		end
+end
+
+initial
+begin: START_CASE
+	#5 -> start_transfer_trigger;
+	#10 dout = 1;
+	#10 dout = 1;
+	#10 dout = 1;
+	#10 dout = 0;
+	#10 dout = 1;
+	#10 dout = 0;
+	#10 dout = 1;
+	#10 dout = 0;
+	#10 dout = 1;
+	#10 dout = 0;
+	#80 -> start_transfer_trigger;
+end
+
+endmodule
+

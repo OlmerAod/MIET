@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at ad79x8_interface.v(17): always construct contains both blocking and non-blocking assignments
